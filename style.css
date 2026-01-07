@@ -28,12 +28,58 @@ nav h2{
 .icon{
     margin-right: 10px;
 }
+
+.common-P{
+    color: #757575;
+    line-height: 30px;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+.address .center{
+    text-align: center;
+}
+
+.card{
+    width: 100%;
+   
+}
+.card-box{
+    border-radius: 5px;
+    width:267px ;
+    background-color:#FFFFFF ;
+   /*   display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+    padding: 35px 30px;
+    height: 100%;
+    box-shadow: 0px 0px 50px 20px #00000009 ;
+}
+.card-box img{
+    width: 44px;
+    margin-bottom: 30px;
+}
+.card-box h3{
+    color: #181818;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.card-box p{
+    font-size: 16px;
+    line-height: 28px;
+    color: #757575;
+}
+.card-content{
+    line-height: 20px;
+}
 /* main style*/
 header{
     background-color: #FFF8F3;
     background: url(images/developer.png) , url(images/header_bg.png) ,#FFF8F3;
     background-position:23px 38px, bottom right  ;
     background-repeat: no-repeat;
+    margin-bottom: 130px;
 }
 nav{
     width: 71%;
@@ -99,6 +145,134 @@ nav li, a{
     gap: 30px;
 }
 .banner .banner-image img{
-    max-width:584px ;
+    max-width:584px; 
     vertical-align: middle;
+}
+
+.about-container-box{
+    
+     max-width:1140px;
+       margin: 0 auto;
+}
+.container{
+    width: 100%;
+}
+.about-text{
+   text-align: center;
+   display: flex;
+   flex-direction: column;
+  /*  gap: 30px; */
+}
+.about-content{
+   /*  max-width: 827px; */
+    background-color: #FFF8F3;
+    padding: 131px;
+    display: flex;
+    flex-direction: column;
+  /*   gap: 30px; */
+}
+.address{
+   /*  max-width: 782px; */
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+}
+.about-text h3{
+    color: #181818;
+    font-weight: bold;
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+ 
+.address .adress-p{
+    color: #757575;
+       font-size: 20px;
+}
+.address .address-p1{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+
+.what{
+    width: 100%;
+    margin-top: 130px;
+}
+.what-content{
+    text-align: center;
+    max-width: 827px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+.what-content h2{
+    margin-bottom: 30px;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+
+.card{
+    width: 100%;
+}
+.card-container{
+    max-width: 1140px;
+    margin-bottom: 130px;
+    margin: 0 auto;
+    display: flex;
+    gap: 24px ;
+    margin-bottom: 130px;
+}
+.resume {
+  width: 100%;
+  margin-bottom: 50px;
+}
+.resume-container1{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.summary{
+    margin-bottom: 113px;
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    color:#181818 ;
+}
+.resume-container2{
+    display: flex;
+   justify-content: space-between;
+}
+.resume-content{
+    display: flex;
+    flex-direction: column;
+    max-width:343px ;
+    margin-bottom: 30px;
+}
+.resume-content h3{
+    font-size: 30px;
+    font-weight: bold;
+    color:#474747 ;
+    margin-bottom: 30px;
+}
+.resume-content h4{
+    font-size: 20px;
+    font-weight: bold;
+    color:#474747 ;
+    margin-bottom: 10px;
+}
+.resume-p1{
+    font-size: 20px;
+    font-weight: 600;
+    color: #757575;
+    margin-bottom: 20px;
+}
+.resume-p2{
+    font-size: 16px;
+    line-height: 28px;
+    color: #757575;
+    margin-bottom: 30px;
+}
+
+.resume-btn{
+
 }
