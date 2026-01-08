@@ -225,7 +225,7 @@ nav li, a{
 }
 .resume {
   width: 100%;
-  margin-bottom: 50px;
+  margin-bottom: 113px;
 }
 .resume-container1{
     max-width: 1140px;
@@ -240,13 +240,21 @@ nav li, a{
 }
 .resume-container2{
     display: flex;
-   justify-content: space-between;
+   max-width:1140px;
+   gap: 24px;
+   margin: 0 auto;
+   margin-bottom: 50px;
 }
-.resume-content{
+.resume-content {
     display: flex;
     flex-direction: column;
-    max-width:343px ;
+    max-width:558px ;
     margin-bottom: 30px;
+     width:511px ;
+     margin-right: 47px;
+}
+.content{
+    margin-top: 30px;
 }
 .resume-content h3{
     font-size: 30px;
@@ -272,7 +280,77 @@ nav li, a{
     color: #757575;
     margin-bottom: 30px;
 }
-
 .resume-btn{
+    display: flex;
+    justify-content: center;
+}
 
+
+
+footer{
+    width: 100%;
+    background-color: #FFF8F3 ;
+     padding: 130px 230px;
+}
+.footer-container{
+    max-width: 1140px;
+    display: flex;
+    margin: 0 auto;
+   
+    gap: 117px;
+    justify-content: space-around;
+}
+
+.connect-content .connect-text h2{
+font-size: 35px;
+font-weight: bold;
+color: #181818;
+margin-bottom: 20px;
+
+}
+.connect-content .connect-text p{
+    font-size: 16px;
+    line-height: 28px;
+    color:#474747 ;
+    margin-bottom: 30px;
+}
+
+.connect-link{
+    display: flex;
+    gap:24px ;
+}
+
+i{
+    color: #FD6E0A;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.massage-input h2{
+    margin-bottom: 28px;
+}
+
+.input-name, .input-email{
+    padding: 15px;
+    border-radius: 5px;
+    color: #757575;
+    width: 461px;
+    border: none;
+}
+.input-textarea{
+    border: none;
+    padding: 15px ;
+    width: 461px;
+    height: 180px;
+}
+.submit-btn{
+     padding: 12px 20px;
+    background-color: #FD6E0A;
+    font-weight: 500;
+    border: none;  
+    border-radius: 5px;
+    font-size: 20px;
+    color: #FFFFFF;
 }
